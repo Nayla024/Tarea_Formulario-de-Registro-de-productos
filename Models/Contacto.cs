@@ -1,3 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+
+
 namespace Tarea_Formulario_de_Registro_de_productos.Models
 {
     public class Contacto
