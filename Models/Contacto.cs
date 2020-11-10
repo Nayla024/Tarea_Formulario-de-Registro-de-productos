@@ -9,7 +9,9 @@ namespace Tarea_Formulario_de_Registro_de_productos.Models
         public string nombre { get; set; }
 
         [Required]
-        [EmailAddress]
-         public string correo { get; set; }
+         public string precio { get; set; }
+
+         [Required]
+         public string descripcion { get; set; }
     }
 }
